@@ -13,5 +13,12 @@
         "amount": 65000
       }
     ]
-  }
+  },
+  "votes": [
+    {
+      "uri": "https://snapshot.org/#/nation3.eth/proposal/0xaff8730fed3f417a700b3bf9142313104e59a5afe6479e7264280a81ab3bd139",
+      "passed": true,
+      "winningChoices": ["Approve"]
+    }
+  ]
 }
