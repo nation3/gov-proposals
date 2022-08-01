@@ -1,0 +1,13 @@
+{
+  "spec": 1,
+  "id": 13,
+  "discussion": "https://forum.nation3.org/t/proposal-formalize-nation3-governance-process/712",
+  "content": {
+    "kind": "proclamation",
+    "statement": "The following governance process is to be followed now for all Nation3 DAO governance proposals: https://github.com/nation3/gov/blob/92687c33f8bce37dda9e62882b39720eb1b28df3/GOVERNANCE.md",
+    "parameters": {
+      "choices": ["Approve", "Reject"],
+      "votingSystem": "single-choice"
+    }
+  }
+}
