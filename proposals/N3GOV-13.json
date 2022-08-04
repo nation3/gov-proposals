@@ -9,5 +9,12 @@
       "choices": ["Approve", "Reject"],
       "votingSystem": "single-choice"
     }
-  }
+  },
+  "votes": [
+    {
+      "uri": "https://snapshot.org/#/nation3.eth/proposal/0x6a8d5266c40d0be9a57ec52294db243e1a508e5be756227d3eb1659e9f64b609",
+      "passed": true,
+      "winningChoices": ["Approve"]
+    }
+  ]
 }
