@@ -13,5 +13,12 @@
         "amount": 150
       }
     ]
-  }
+  },
+  "votes": [
+    {
+      "uri": "https://vote.nation3.org/#/proposal/0x77d3191a72753781303eb2402a1263f837c77771012f687f1395a7a965e396f1",
+      "passed": true,
+      "winningChoices": ["Approve"]
+    }
+  ]
 }
