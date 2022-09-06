@@ -19,6 +19,10 @@
       "uri": "https://vote.nation3.org/#/proposal/0x77d3191a72753781303eb2402a1263f837c77771012f687f1395a7a965e396f1",
       "passed": true,
       "winningChoices": ["Approve"]
+    },
+    {
+      "uri": "https://client.aragon.org/#/nation3/0x92462953792d3e84af56edfc74d93e5885d38cc0/vote/23/",
+      "passed": true
     }
   ]
 }
