@@ -5,5 +5,10 @@
   "content": {
     "kind": "proclamation",
     "statement": "Nation3 should adopt the following North Star metrics: 1) Number of active citizens, and 2) Total value secured by the Nation3 jurisdiction. Everything the Nation3 DAO does should be aligned with increasing such metrics."
-  }
+  },
+  "votes": [
+    {
+      "uri": "https://vote.nation3.org/#/proposal/0x73a04d80100becc820234f3465124749ef181b163ede54c5ca6b3625260b15af"
+    }
+  ]
 }
