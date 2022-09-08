@@ -1,0 +1,33 @@
+{
+  "id": 17,
+  "spec": 1,
+  "discussion": 
+"https://forum.nation3.org/t/proposal-revoke-allowances-for-nation-airdrops/746",
+  "content": {
+    "kind": "parameter-change",
+    "calls": [
+      {
+        "chainId": 1,
+        "from": "0x336252602b3a8a0be336ed942228305173e8082b",
+        "to": "0x333A4823466879eeF910A04D473505da62142069",
+        "method": "approve",
+        "parameters": [
+          "0xcab2B7614351649870e4DCC3490Ab692bf3beD60",
+          "0"
+        ],
+        "value": 0
+      },
+      {
+        "chainId": 1,
+        "from": "0x336252602b3a8a0be336ed942228305173e8082b",
+        "to": "0x333A4823466879eeF910A04D473505da62142069",
+        "method": "approve",
+        "parameters": [
+          "0x0B8107EaCeC5e81Fe6E8594dB95E03CF50685f84",
+          "0"
+        ],
+        "value": 0
+      }
+    ]
+  }
+}
