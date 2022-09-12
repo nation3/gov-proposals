@@ -9,7 +9,9 @@
   },
   "votes": [
     {
-      "uri": "https://vote.nation3.org/#/proposal/0xc5b9e8bb36878fcefc9de65a389ec8392510952e7f1cb720ff9f288eb600c338"
+      "uri": "https://vote.nation3.org/#/proposal/0xc5b9e8bb36878fcefc9de65a389ec8392510952e7f1cb720ff9f288eb600c338",
+      "passed": true,
+      "winningChoices": ["Approve"]
     }
   ]
 }
