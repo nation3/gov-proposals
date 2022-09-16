@@ -29,5 +29,15 @@
         "value": 0
       }
     ]
-  }
+  },
+  "votes": [
+    {
+      "uri": "https://vote.nation3.org/#/proposal/0x7528849e1ca24eb55b88834f9d7e5f3a0f249015f66213c4c59ef9718c4f9adf",
+      "passed": true,
+      "winningChoices": ["Approve"]
+    },
+    {
+      "uri": "https://client.aragon.org/#/nation3/0x92462953792d3e84af56edfc74d93e5885d38cc0/vote/27/"
+    }
+  ]  
 }
