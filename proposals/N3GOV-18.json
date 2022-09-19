@@ -1,0 +1,19 @@
+{
+  "id": 18,
+  "spec": 1,
+  "content": {
+    "kind": "proclamation",
+    "statement": "Nation3 should fund the proposal to introduce a Basic Income for Nation3 Citizens.",
+    "parameters": {
+      "choices": [
+        "Approve",
+        "Reject"
+      ],
+      "votingSystem": "single-choice"
+    }
+  },
+  "discussion": "https://forum.nation3.org/t/proposal-basic-income-for-nation3-citizens/754",
+  "votes": [
+    null
+  ]
+}
