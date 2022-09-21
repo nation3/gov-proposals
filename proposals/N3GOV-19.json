@@ -1,0 +1,20 @@
+{
+  "id": 19,
+  "spec": 1,
+  "content": {
+    "kind": "expense",
+    "transfers": [
+      {
+        "chainId": 1,
+        "from": "0x336252602b3a8a0be336ed942228305173e8082b",
+        "recipient": "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
+        "token": "0x333A4823466879eeF910A04D473505da62142069",
+        "amount": 36.0
+      }
+    ]
+  },
+  "discussion": "https://forum.nation3.org/t/proposal-basic-income-for-nation3-citizens/754",
+  "votes": [
+    null
+  ]
+}
