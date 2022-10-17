@@ -5,5 +5,9 @@
   "content": {
     "kind": "proclamation",
     "statement": "The Nation3 DAO will set to grow its North Star metrics  during Q4 2022 to: 1) 50 active citizens, and 2) Equivalent of 1 BTC  secured by the Nation3 jurisdiction. Both will be measured as the average during the last week of Q4 2022."
-  }
+  },
+  "votes": [{
+    "passed": true,
+    "uri": "https://vote.nation3.org/#/proposal/0x197406fabfb6f40d964b9e219cb98c1b10fb47c3859b8973399e6fec64e6caf0"
+  }]
 }
