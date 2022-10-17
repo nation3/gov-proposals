@@ -16,5 +16,11 @@
       }
     ]
   },
-  "discussion": "https://forum.nation3.org/t/nation3-flag-campaign-to-activate-the-community-and-allocate-100-of-the-remaining-genesis-passports/755"
+  "discussion": "https://forum.nation3.org/t/nation3-flag-campaign-to-activate-the-community-and-allocate-100-of-the-remaining-genesis-passports/755",
+  "votes": [
+    {
+      "passed": true,
+      "uri": "https://vote.nation3.org/#/proposal/0x5c003eff025533aad9e0aa721a72f9d0e073bda28eb8367bf2531d80583d09e3"
+    }
+  ]
 }
