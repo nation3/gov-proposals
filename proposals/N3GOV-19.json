@@ -15,6 +15,9 @@
   },
   "discussion": "https://forum.nation3.org/t/proposal-basic-income-for-nation3-citizens/754",
   "votes": [
-    null
+    {
+      "passed": false,
+      "uri": "https://vote.nation3.org/#/proposal/bafkreihxmcotkhycmntbll4oflbvsrb66sx2dyxprjjpxkqee5splqb2w4"
+    }
   ]
 }
