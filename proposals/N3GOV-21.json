@@ -2,7 +2,10 @@
   "id": 21,
   "spec": 1,
   "votes": [
-    null
+    {
+      "passed": true,
+      "uri": "https://vote.nation3.org/#/proposal/bafkreiayphsymtia462njejnytj6p5572bysamxeajp25sgvxwkpd3pt4u"
+    }
   ],
   "content": {
     "kind": "expense",
