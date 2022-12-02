@@ -13,5 +13,15 @@
       }
     ]
   },
-  "discussion": "https://forum.nation3.org/t/proposal-re-finance-to-cover-the-approaching-repayment-of-50k-bond/814"
+  "discussion": "https://forum.nation3.org/t/proposal-re-finance-to-cover-the-approaching-repayment-of-50k-bond/814",
+  "votes": [
+    {
+      "uri": "https://vote.nation3.org/#/proposal/0x27b44ac54d3dc90fff7a9bbe2946c0b3817d4dd9a703505ea023db2c3da4603f",
+      "passed": true,
+      "winningChoices": ["Approve"]
+    },
+    {
+      "uri": "https://client.aragon.org/#/nation3/0x92462953792d3e84af56edfc74d93e5885d38cc0/vote/36/"
+    }
+  ]
 }
