@@ -1,0 +1,17 @@
+{
+  "id": 1337,
+  "spec": 1,
+  "content": {
+    "kind": "custodial-treasury-management",
+    "transfers": [
+      {
+        "chainId": 1,
+        "from": "0x7b81e8d4e82796c9b76284fa4d21e57b8b86a06c",
+        "recipient": "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
+        "token": "0x333A4823466879eeF910A04D473505da62142069",
+        "amount": 73
+      }
+    ]
+  },
+  "discussion": "https://forum.nation3.org/t/proposal-to-amend-prevailing-variables-to-secure-solar-guild-funding/827"
+}
