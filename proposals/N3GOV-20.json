@@ -25,7 +25,7 @@
     },
     {
       "uri": "https://etherscan.io/tx/0x92780c9afa785cb570508973fcb5fee1f60924427864a7bc77939f1591b4bf93",
-      "passed: true"
+      "passed": true
     }
   ]
 }
