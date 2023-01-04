@@ -19,6 +19,10 @@
       "uri": "https://vote.nation3.org/#/proposal/0xa0d00ddf5cf68786c11420e350ac45b4b3ea32fef8e780a8dc423d60c1c15437",
       "passed": true,
       "winningChoices": ["Approve"]
+    },
+    {
+      "uri": "https://app.safe.global/eth:0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885/transactions/tx?id=multisig_0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885_0x6a9cb907b5d6006fb5453553d65d56f7490cae74148859180ba1d7c317c5b540",
+      "passed": true
     }
   ]
 }
