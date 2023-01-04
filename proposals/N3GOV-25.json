@@ -13,5 +13,10 @@
       }
     ]
   },
-  "discussion": "https://forum.nation3.org/t/proposal-to-amend-prevailing-variables-to-secure-solar-guild-funding/827"
+  "discussion": "https://forum.nation3.org/t/proposal-to-amend-prevailing-variables-to-secure-solar-guild-funding/827",
+  "votes": [{
+    "uri": "https://vote.nation3.org/#/proposal/0xa92b77e3e6ba991cf777068fa41bb6a7ef9135aca8253bc8423f3e185ae6f80a",
+    "winningChoices": ["Approve"],
+    "passed": true
+  }]
 }
