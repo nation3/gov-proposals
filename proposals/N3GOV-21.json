@@ -5,6 +5,11 @@
     {
       "passed": true,
       "uri": "https://vote.nation3.org/#/proposal/bafkreiayphsymtia462njejnytj6p5572bysamxeajp25sgvxwkpd3pt4u"
+    },
+    {
+      "uri": "https://client.aragon.org/#/nation3/0x92462953792d3e84af56edfc74d93e5885d38cc0/vote/30/",
+      "winningChoices": ["Approve"],
+      "passed": true
     }
   ],
   "content": {
