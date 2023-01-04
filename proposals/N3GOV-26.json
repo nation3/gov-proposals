@@ -5,5 +5,10 @@
   "content": {
     "kind": "proclamation",
     "statement": "3.nation3.eth can spend up to 12.6 $NATION (from tokens obtained in N3GOV-2) on sponsoring Genesis Passports for lawyers who have helped/help review the Constitution draft."
-  }
+  },
+  "votes": [{
+    "uri": "https://vote.nation3.org/#/proposal/0xc82064ef215d4bf0de23fd73f4fc78181d14e53f4907e978ff87c6b3ec273fca",
+    "winningChoices": ["Approve"],
+    "passed": true
+  }]
 }
