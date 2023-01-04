@@ -21,7 +21,8 @@
       "winningChoices": ["Approve"]
     },
     {
-      "uri": "https://client.aragon.org/#/nation3/0x92462953792d3e84af56edfc74d93e5885d38cc0/vote/36/"
+      "uri": "https://client.aragon.org/#/nation3/0x92462953792d3e84af56edfc74d93e5885d38cc0/vote/36/",
+      "passed": true
     }
   ]
 }
