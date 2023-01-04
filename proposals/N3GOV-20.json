@@ -20,7 +20,12 @@
   "votes": [
     {
       "passed": true,
-      "uri": "https://vote.nation3.org/#/proposal/0x5c003eff025533aad9e0aa721a72f9d0e073bda28eb8367bf2531d80583d09e3"
+      "uri": "https://vote.nation3.org/#/proposal/0x5c003eff025533aad9e0aa721a72f9d0e073bda28eb8367bf2531d80583d09e3",
+      "winningChoices": ["Approve"]
+    },
+    {
+      "uri": "https://etherscan.io/tx/0x92780c9afa785cb570508973fcb5fee1f60924427864a7bc77939f1591b4bf93",
+      "passed: true"
     }
   ]
 }
