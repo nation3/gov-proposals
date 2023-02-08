@@ -5,5 +5,12 @@
     "kind": "proclamation",
     "statement": "The DAO requests that the Meta Guild sends 92,500 USDC to the Solar Guild (solarguild.eth)"
   },
-  "discussion": "https://forum.nation3.org/t/formation-of-the-solar-guild-roadmap-proposal/803"
+  "discussion": "https://forum.nation3.org/t/formation-of-the-solar-guild-roadmap-proposal/803",
+  "votes": [
+    {
+      "uri": "https://vote.nation3.org/#/proposal/0x4cc70dd5e7d599b8c3b4f0c1f404890fca2175cac731d327c73669d65f1c5224",
+      "passed": true,
+      "winningChoices": ["Approve"]
+    }
+  ]
 }
