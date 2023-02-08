@@ -5,5 +5,10 @@
     "kind": "proclamation",
     "statement": "3.nation3.eth can spend up to 9 $NATION (from tokens obtained in N3GOV-2) to reward best feedback to the Constitution draft, where such feedback gets included in the final version."
   },
-  "discussion": "https://forum.nation3.org/t/proposal-allow-up-to-9-nation-to-be-spent-on-rewarding-top-constitution-edit-proposals/858"
+  "discussion": "https://forum.nation3.org/t/proposal-allow-up-to-9-nation-to-be-spent-on-rewarding-top-constitution-edit-proposals/858",
+  "votes": [
+    "uri": "https://vote.nation3.org/#/proposal/0xdbf6ba68f7af77faa484e31e47e63a6df7c069dcf6f850a2076213b8071d3a79",
+    "passed": true,
+    "winningChoices": ["Approve"]
+  ]
 }
