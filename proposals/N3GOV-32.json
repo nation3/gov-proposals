@@ -5,5 +5,12 @@
     "kind": "meta",
     "prURI": "https://github.com/nation3/law/pull/2"
   },
-  "discussion": "https://forum.nation3.org/t/proposal-ratify-nation3s-first-constitution-draft/866"
+  "discussion": "https://forum.nation3.org/t/proposal-ratify-nation3s-first-constitution-draft/866",
+  "votes": [
+    {
+      "uri": "https://vote.nation3.org/#/proposal/0x9f5fea0882d023c2c558ec165b8b7c78a514e814a8fde723ff1c442374b46dfb",
+      "passed": true,
+      "winningChoices": "Approve"
+    }
+  ]
 }
