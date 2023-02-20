@@ -10,7 +10,7 @@
         "to": "0x333A4823466879eeF910A04D473505da62142069",
         "method": "transfer",
         "parameters": [
-          "0xvestingcontract-to-0xfb633f47a84a1450ee0413f2c32dc1772ccaea3e",
+          "0x4705f516a48206dbe2185995c8e9b047f09d6c46",
           "2000000000000000000000"
         ]
       }
