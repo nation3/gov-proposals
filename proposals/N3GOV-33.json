@@ -16,8 +16,7 @@
         "chainId": 1,
         "from": "0x336252602b3a8a0be336ed942228305173e8082b",
         "parameters": [
-          "0x80536381af7294f11325a40f5d443479fb4592d63847264d292126f2c2cd55d4",
-          null
+          "0x80536381af7294f11325a40f5d443479fb4592d63847264d292126f2c2cd55d4"
         ],
         "method": "joinAgreementApproved",
         "to": "0x2e41383506a6715da7dd0985dc401fe720e473c0"
@@ -28,8 +27,7 @@
         "to": "0x2e41383506a6715da7dd0985dc401fe720e473c0",
         "method": "joinAgreementApproved",
         "parameters": [
-          "0x18594e746ea0c569f22bb80675b114d9c61189de98066ddb39699172e3e75207",
-          null
+          "0x18594e746ea0c569f22bb80675b114d9c61189de98066ddb39699172e3e75207"
         ]
       },
       {
@@ -48,6 +46,15 @@
         "method": "joinAgreementApproved",
         "parameters": [
           "0xf732e98f1ff60e1e6248dcc99aa6dc1f9b8f969ff124feb0e38bddecde51e726"
+        ]
+      },
+      {
+        "chainId": 1,
+        "from": "0x336252602b3a8a0be336ed942228305173e8082b",
+        "to": "0x2e41383506a6715da7dd0985dc401fe720e473c0",
+        "method": "joinAgreementApproved",
+        "parameters": [
+          "0xd11206d9f7672e5dc8484c6be2663b7850f9d31720459cd0103f381eb3e0af6f"
         ]
       }
     ]
