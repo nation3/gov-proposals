@@ -46,7 +46,7 @@
         "to": "0x2e41383506a6715da7dd0985dc401fe720e473c0",
         "method": "joinAgreementApproved",
         "parameters": [
-          "0x3a5505b069d2ad52b7d461755be9b3679827c050640a2e5c49f773b1eed61bc2".
+          "0x3a5505b069d2ad52b7d461755be9b3679827c050640a2e5c49f773b1eed61bc2",
           [
             "0x336252602b3a8a0be336ed942228305173e8082b"
             "0",
