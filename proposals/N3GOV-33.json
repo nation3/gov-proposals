@@ -15,19 +15,15 @@
       {
         "chainId": 1,
         "from": "0x336252602b3a8a0be336ed942228305173e8082b",
-        "parameters": [
-          "0x80536381af7294f11325a40f5d443479fb4592d63847264d292126f2c2cd55d4"
-        ],
-        "method": "joinAgreementApproved",
-        "to": "0x2e41383506a6715da7dd0985dc401fe720e473c0"
-      },
-      {
-        "chainId": 1,
-        "from": "0x336252602b3a8a0be336ed942228305173e8082b",
         "to": "0x2e41383506a6715da7dd0985dc401fe720e473c0",
         "method": "joinAgreementApproved",
         "parameters": [
-          "0x18594e746ea0c569f22bb80675b114d9c61189de98066ddb39699172e3e75207"
+          "0x80536381af7294f11325a40f5d443479fb4592d63847264d292126f2c2cd55d4",
+          [
+            "0x336252602b3a8a0be336ed942228305173e8082b"
+            "0",
+            ["0x9dea34fea428e24b489f8f5d690cd8f76a4c3b5c248d0a0b6355d8d6e07d1e3e"]
+          ]
         ]
       },
       {
@@ -36,7 +32,12 @@
         "to": "0x2e41383506a6715da7dd0985dc401fe720e473c0",
         "method": "joinAgreementApproved",
         "parameters": [
-          "0x3a5505b069d2ad52b7d461755be9b3679827c050640a2e5c49f773b1eed61bc2"
+          "0x18594e746ea0c569f22bb80675b114d9c61189de98066ddb39699172e3e75207",
+          [
+            "0x336252602b3a8a0be336ed942228305173e8082b"
+            "0",
+            ["0xd4ef6356dcdc8c66e0bbefaa16b05aa70d2d97143cc5497e5669df1907481f3d"]
+          ]
         ]
       },
       {
@@ -45,7 +46,12 @@
         "to": "0x2e41383506a6715da7dd0985dc401fe720e473c0",
         "method": "joinAgreementApproved",
         "parameters": [
-          "0xf732e98f1ff60e1e6248dcc99aa6dc1f9b8f969ff124feb0e38bddecde51e726"
+          "0x3a5505b069d2ad52b7d461755be9b3679827c050640a2e5c49f773b1eed61bc2".
+          [
+            "0x336252602b3a8a0be336ed942228305173e8082b"
+            "0",
+            ["0x702f38d5e652cc31cf1982aed7f64e4edaf1d3fb240559d61536df9c8c659abf"]
+          ]
         ]
       },
       {
@@ -54,7 +60,26 @@
         "to": "0x2e41383506a6715da7dd0985dc401fe720e473c0",
         "method": "joinAgreementApproved",
         "parameters": [
-          "0xacb076fa4eae672d371c95c48986ee10d266c14f19a4411e9c2ecb03fe419447"
+          "0xf732e98f1ff60e1e6248dcc99aa6dc1f9b8f969ff124feb0e38bddecde51e726",
+          [
+            "0x336252602b3a8a0be336ed942228305173e8082b"
+            "0",
+            ["0x7e614e2cbb7647107c8bc8472e63ef8ac2acd70d935acadf077c8b539cc19073"]
+          ]
+        ]
+      },
+      {
+        "chainId": 1,
+        "from": "0x336252602b3a8a0be336ed942228305173e8082b",
+        "to": "0x2e41383506a6715da7dd0985dc401fe720e473c0",
+        "method": "joinAgreementApproved",
+        "parameters": [
+          "0xacb076fa4eae672d371c95c48986ee10d266c14f19a4411e9c2ecb03fe419447",
+          [
+            "0x336252602b3a8a0be336ed942228305173e8082b"
+            "0",
+            ["0xb75406eb98237e18a62d4227e94bbf603f1004f87cec3de22c31ac879c9f9567"]
+          ]
         ]
       }
     ]
