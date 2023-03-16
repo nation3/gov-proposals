@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        ref: ${{ github.event.pull_request.head.sha }}
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
       - name: Run CommitsWithinTime script
         id: check-new-commits
         uses: adriangl/check-new-commits-action@v1
