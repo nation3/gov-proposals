@@ -23,3 +23,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           labels: frozen
+      - name: Block merge if delay not respected
+        if: steps.commitswithintime.outputs.has-new-commits-within-time == 'true'
+        run: exit 1
