@@ -3,10 +3,10 @@ on:
     types: [opened, reopened, edited, synchronize, ready_for_review]
     paths:
       - proposals/N3GOV-*.json
-name: Pull request workflow
+name: PR for governance proposal
 jobs:
   validate_configurations:
-    name: Validate governance proposals against the spec
+    name: Validate governance proposal against the spec
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -15,12 +15,8 @@ jobs:
         uses: tj-actions/changed-files@v35
         with:
           files: proposals/N3GOV-*.json
-      - name: Run step if any file(s) in the docs folder change
-        if: steps.changed-files.outputs.any_changed == 'true'
-        run: |
-          echo "One or more files in the docs folder has changed."
-          echo "List all the files that have changed: ${{ steps.changed-files-specific.outputs.all_changed_files }}"
       - name: Validate against JSON schema
+        if: steps.changed-files.outputs.any_changed == 'true'
         uses: cardinalby/schema-validator-action@v1
         with:
           file: ${{ steps.changed-files.outputs.all_changed_files }}
