@@ -24,7 +24,7 @@ jobs:
           echo "The 'total-commits' value is ${{ steps.commitswithintime.outputs.total-commits }}"
       - name: Remove frozen label
         uses: mondeja/remove-labels-gh-action@v1
-        if: ${{ steps.commitswithintime.outputs.has-new-commits-within-time }}
+        if: steps.commitswithintime.outputs.has-new-commits-within-time
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           labels: frozen
