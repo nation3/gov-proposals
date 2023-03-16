@@ -1,5 +1,5 @@
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, reopened, edited, synchronize, ready_for_review, labeled]
     paths:
       - proposals/N3GOV-*.json
@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        ref: ${{ github.event.pull_request.head.sha }}
       - name: Run CommitsWithinTime script
         id: check-new-commits
         uses: adriangl/check-new-commits-action@v1
