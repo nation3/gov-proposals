@@ -1,5 +1,5 @@
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, reopened, edited, synchronize, ready_for_review, labeled]
     paths:
       - proposals/N3GOV-*.json
@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run CommitsWithinTime script
+        id: check-new-commits
         uses: adriangl/check-new-commits-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
