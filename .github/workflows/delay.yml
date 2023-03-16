@@ -19,6 +19,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           seconds: 60
+          brandh: ${{ github.event.pull_request.head.sha }}
       - name: Remove frozen label
         uses: mondeja/remove-labels-gh-action@v1
         if: steps.check-new-commits.outputs.has-new-commits == 'true'
