@@ -18,7 +18,7 @@ jobs:
         uses: adriangl/check-new-commits-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          seconds: 60
+          seconds: 172800
           branch: ${{ github.event.pull_request.head.sha }}
       - name: Remove frozen label
         uses: mondeja/remove-labels-gh-action@v1
