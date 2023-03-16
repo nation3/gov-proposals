@@ -1,25 +1,31 @@
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, reopened, edited, synchronize, ready_for_review, labeled]
     paths:
       - proposals/N3GOV-*.json
 name: Wait for delay before merging
 jobs:
   check_delay:
-    if: '! github.event.pull_request.draft'
+    if: "! github.event.pull_request.draft"
     name: Check that PR has been opened for more than 48 hours
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run CommitsWithinTime script
-        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.5
-        id: commitswithintime
         with:
-          hours: 0
-          minutes: 2
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Run CommitsWithinTime script
+        id: check-new-commits
+        uses: adriangl/check-new-commits-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          seconds: 172800
+          branch: ${{ github.event.pull_request.head.sha }}
       - name: Remove frozen label
         uses: mondeja/remove-labels-gh-action@v1
-        if: steps.commitswithintime.outputs.has-new-commits-within-time == 'true'
+        if: steps.check-new-commits.outputs.has-new-commits == 'true'
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           labels: frozen
+      - name: Block merge if delay not respected
+        if: steps.check-new-commits.outputs.has-new-commits == 'true'
+        run: exit 1
