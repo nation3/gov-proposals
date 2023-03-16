@@ -35,6 +35,7 @@ jobs:
         uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.5
         id: commitswithintime
         with:
+          hours: 0
           seconds: 30
       - name: Get the output from CommitsWithinTime
         run: |
