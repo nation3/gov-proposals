@@ -29,7 +29,7 @@ jobs:
     name: Check that PR has been opened for more than 48 hours
     runs-on: ubuntu-latest
     steps:
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
       - name: Run CommitsWithinTime script
         uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.5
         id: commitswithintime
