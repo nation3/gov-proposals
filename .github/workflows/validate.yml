@@ -4,16 +4,21 @@ on:
       - master
       - json-schema-validate
     paths:
-      - 'proposals/N3GOV-*.json'
+      - proposals/N3GOV-*.json
 name: Pull request workflow
 jobs:
   validate_configurations:
     name: Validate governance proposals against the spec
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+        with:
+          files: proposals/N3GOV-*.json
       - name: Validate against JSON schema
         uses: cardinalby/schema-validator-action@v1
         with:
-          file: '*'
+          file: ${{ steps.changed-files-specific.outputs.all_changed_files }}
           schema: 'https://raw.githubusercontent.com/nation3/gov/main/specs/N3GOV-v2.json'
