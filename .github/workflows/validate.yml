@@ -1,8 +1,5 @@
 on:
   pull_request:
-    branches:
-      - master
-      - json-schema-validate
     paths:
       - proposals/N3GOV-*.json
 name: Pull request workflow
