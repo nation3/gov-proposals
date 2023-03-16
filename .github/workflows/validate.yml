@@ -1,6 +1,6 @@
 on:
   pull_request:
-    types: [opened, reopened, edited, ready_for_review, labeled]
+    types: [opened, reopened, edited, ready_for_review]
     paths:
       - proposals/N3GOV-*.json
 name: Pull request workflow
@@ -25,26 +25,3 @@ jobs:
         with:
           file: ${{ steps.changed-files.outputs.all_changed_files }}
           schema: 'https://raw.githubusercontent.com/nation3/gov/main/specs/N3GOV-v2.json'
-  check_delay:
-    if: '! github.event.pull_request.draft'
-    name: Check that PR has been opened for more than 48 hours
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Run CommitsWithinTime script
-        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.5
-        id: commitswithintime
-        with:
-          hours: 0
-          seconds: 30
-      - name: Get the output from CommitsWithinTime
-        run: |
-          echo "The 'has-new-commits-within-time' value is ${{ steps.commitswithintime.outputs.has-new-commits-within-time }}"
-          echo "The 'number-of-commits-within-time' value is ${{ steps.commitswithintime.outputs.number-of-commits-within-time }}"
-          echo "The 'total-commits' value is ${{ steps.commitswithintime.outputs.total-commits }}"
-      - name: Remove frozen label
-        uses: mondeja/remove-labels-gh-action@v1
-        if: ${{ steps.commitswithintime.outputs.has-new-commits-within-time }}
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          labels: frozen
