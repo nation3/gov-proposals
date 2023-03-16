@@ -16,7 +16,7 @@ jobs:
         id: commitswithintime
         with:
           hours: 0
-          seconds: 30
+          minutes: 2
       - name: Get the output from CommitsWithinTime
         run: |
           echo "The 'has-new-commits-within-time' value is ${{ steps.commitswithintime.outputs.has-new-commits-within-time }}"
