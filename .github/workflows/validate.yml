@@ -1,5 +1,5 @@
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, reopened, edited, synchronize, ready_for_review]
     paths:
       - proposals/N3GOV-*.json
