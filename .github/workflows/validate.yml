@@ -1,5 +1,6 @@
 on:
   pull_request:
+    types: [opened, reopened, edited, ready_for_review, labeled]
     paths:
       - proposals/N3GOV-*.json
 name: Pull request workflow
@@ -40,8 +41,9 @@ jobs:
           echo "The 'has-new-commits-within-time' value is ${{ steps.commitswithintime.outputs.has-new-commits-within-time }}"
           echo "The 'number-of-commits-within-time' value is ${{ steps.commitswithintime.outputs.number-of-commits-within-time }}"
           echo "The 'total-commits' value is ${{ steps.commitswithintime.outputs.total-commits }}"
-      - name: Add frozen label
-        uses: actions-ecosystem/action-add-labels@v1
-        if: ${{ ! steps.commitswithintime.outputs.has-new-commits-within-time }}
+      - name: Remove frozen label
+        uses: mondeja/remove-labels-gh-action@v1
+        if: ${{ steps.commitswithintime.outputs.has-new-commits-within-time }}
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           labels: frozen
