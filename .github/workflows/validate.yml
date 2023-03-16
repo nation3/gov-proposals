@@ -17,8 +17,13 @@ jobs:
         uses: tj-actions/changed-files@v35
         with:
           files: proposals/N3GOV-*.json
+      - name: Run step if any file(s) in the docs folder change
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        run: |
+          echo "One or more files in the docs folder has changed."
+          echo "List all the files that have changed: ${{ steps.changed-files-specific.outputs.all_changed_files }}"
       - name: Validate against JSON schema
         uses: cardinalby/schema-validator-action@v1
         with:
-          file: ${{ steps.changed-files-specific.outputs.all_changed_files }}
+          file: steps.changed-files-specific.outputs.all_changed_files
           schema: 'https://raw.githubusercontent.com/nation3/gov/main/specs/N3GOV-v2.json'
