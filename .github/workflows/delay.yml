@@ -15,11 +15,10 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
       - name: Run CommitsWithinTime script
         id: check-new-commits
-        uses: adriangl/check-new-commits-action@v1
+        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          seconds: 60
-          branch: ${{ github.event.pull_request.head.sha }}
+          hours: 0
+          minutes: 1
       - name: Remove frozen label
         uses: mondeja/remove-labels-gh-action@v1
         if: steps.check-new-commits.outputs.has-new-commits == 'true'
