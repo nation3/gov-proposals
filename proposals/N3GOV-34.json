@@ -16,5 +16,14 @@
       }
     ]
   },
+  "votes": [
+    {
+      "uri": "https://vote.nation3.org/#/proposal/0xe267cddf5ad549ed6fc5fa7a64abedccee148327351eefc307ef33b6189bb17b",
+      "passed": true
+    },
+    {
+      "uri": "https://client.aragon.org/#/nation3/0x92462953792d3e84af56edfc74d93e5885d38cc0/vote/38/"
+    }
+  ],
   "discussion": "https://forum.nation3.org/t/financial-proposal-nation3-aragon-partnership-token-swap/874"
 }
