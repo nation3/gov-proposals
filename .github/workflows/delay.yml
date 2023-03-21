@@ -7,7 +7,7 @@ name: Wait for delay before merging
 jobs:
   check_delay:
     if: "! github.event.pull_request.draft"
-    name: Check that PR has been opened for more than 48 hours
+    name: Check that PR has been unchanged for more than 48 hours
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
