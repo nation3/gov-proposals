@@ -6,5 +6,9 @@
   "id": 35,
   "spec": 2,
   "discussion": 
-"https://forum.nation3.org/t/proposal-simplify-north-star-metric-and-set-q2-2023-goals/893"
+"https://forum.nation3.org/t/proposal-simplify-north-star-metric-and-set-q2-2023-goals/893",
+  "votes": [{
+    "uri": "https://vote.nation3.org/#/proposal/0x029fa9d97d350d77d1ce1738bf3663138ed55a692d264f6f81c2a1d2609716c3",
+    "passed": true
+  }]
 }
