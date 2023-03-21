@@ -5,5 +5,11 @@
   },
   "id": 35,
   "spec": 2,
-  "discussion": "https://forum.nation3.org/t/financial-proposal-nation3-aragon-partnership-token-swap/874"
+  "discussion": "https://forum.nation3.org/t/financial-proposal-nation3-aragon-partnership-token-swap/874",
+  "votes": [
+    {
+      "uri": "https://vote.nation3.org/#/proposal/0x64435d85b1597bc090a86f1e94aaea3a679aee9268eb76a1d55d83c0b561f7a4",
+      "passed": true
+    }
+  ]
 }
