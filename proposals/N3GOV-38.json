@@ -13,5 +13,11 @@
   },
   "id": 38,
   "spec": 2,
-  "discussion": "https://forum.nation3.org/t/project-funding-proposal-nationcred-citizen-directory/885"
+  "discussion": "https://forum.nation3.org/t/project-funding-proposal-nationcred-citizen-directory/885",
+  "votes": [
+    {
+      "passed": true,
+      "uri": "https://vote.nation3.org/#/proposal/0x1680c1d7d1a615779cfea902a2169e43e105b989d63a1fba056b396776f1ce84"
+    }
+  ]
 }
