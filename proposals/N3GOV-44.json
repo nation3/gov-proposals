@@ -6,7 +6,7 @@
         "chainId": 1,
         "from": "0x336252602b3a8a0be336ed942228305173e8082b",
         "to": "0x5CB5Ba62DC8ced477f20d4692986f1Cd42174761",
-        "method": "release(address)",
+        "method": "release",
         "parameters": [
           "0xa117000000f279D81A1D3cc75430fAA017FA5A2e"
         ]
@@ -15,7 +15,7 @@
         "chainId": 1,
         "from": "0x336252602b3a8a0be336ed942228305173e8082b",
         "to": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
-        "method": "transfer(address,uint256)",
+        "method": "transfer",
         "parameters": [
           "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
           "20000000000000000000000"
@@ -25,7 +25,7 @@
         "chainId": 1,
         "from": "0x336252602b3a8a0be336ed942228305173e8082b",
         "to": "0x333A4823466879eeF910A04D473505da62142069",
-        "method": "transfer(address,uint256)",
+        "method": "transfer",
         "parameters": [
           "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
           "145000000000000000000"
@@ -33,7 +33,7 @@
       }
     ]
   },
-  "id": 1337,
+  "id": 44,
   "spec": 2,
   "discussion": "https://forum.nation3.org/t/fiancial-proposal-withdraw-ant-from-vesting-contract-lp-it-in-a-uniswap-ant-nation-pool/916"
 }
