@@ -7,7 +7,7 @@ name: Wait for delay before merging
 jobs:
   check_delay:
     if: "! github.event.pull_request.draft"
-    name: Check that PR has been unchanged for more than 48 hours
+    name: Check that PR has been unchanged for more than 24 hours
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -18,7 +18,7 @@ jobs:
         uses: adriangl/check-new-commits-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          seconds: 172800
+          seconds: 86400
           branch: ${{ github.event.pull_request.head.sha }}
       - name: Remove frozen label
         uses: mondeja/remove-labels-gh-action@v1
