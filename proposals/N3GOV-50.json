@@ -1,0 +1,22 @@
+{
+  "content": {
+    "kind": "parameter-change",
+    "calls": [
+      {
+        "chainId": 1,
+        "from": "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
+        "to": "0xf7def1d2fbda6b74bee7452fdf7894da9201065d",
+        "method": "set_depositsLocked",
+        "parameters": [
+          "false"
+        ]
+      }
+    ]
+  },
+  "id": 50,
+  "spec": 2,
+  "votes": [
+    {}
+  ],
+  "discussion": "https://discord.com/channels/690584551239581708/1137717842880499782/1137717842880499782"
+}
