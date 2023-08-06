@@ -6,7 +6,10 @@
   "id": 1337,
   "spec": 2,
   "votes": [
-    {}
+    {
+      "passed": true,
+      "uri": "https://vote.nation3.org/#/proposal/0x7bac0c8e084297e9ca26b9ac572ba4c1317e899478cc568380df18e0b84f4733"
+    }
   ],
   "discussion": "https://forum.nation3.org/t/n3gov-49-decentralize-the-nation3-governance-structure-and-launch-new-experiment/941"
 }
