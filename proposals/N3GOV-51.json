@@ -1,0 +1,31 @@
+{
+  "content": {
+    "kind": "parameter-change",
+    "calls": [
+      {
+        "chainId": 1,
+        "from": "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
+        "to": "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
+        "method": "addOwnerWithThreshold",
+        "parameters": [
+          "0x39245d4cEf276e857EF2633F73707189052F00Af"
+        ]
+      },
+      {
+        "chainId": 1,
+        "from": "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
+        "to": "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
+        "method": "_threshold",
+        "parameters": [
+          4
+        ]
+      }
+    ]
+  },
+  "id": 51,
+  "spec": 2,
+  "votes": [
+    {}
+  ],
+  "discussion": "https://discord.com/channels/690584551239581708/1138750656451199017"
+}
