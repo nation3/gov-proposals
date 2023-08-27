@@ -16,7 +16,10 @@
   "id": 50,
   "spec": 2,
   "votes": [
-    {}
+    {
+      "passed": true,
+      "uri": "https://vote.nation3.org/#/proposal/0x5aa80f9c162909a507ce5d479a9d0c41e464bd2bf84bf1085d9308b397f240e1"
+    }
   ],
   "discussion": "https://discord.com/channels/690584551239581708/1137717842880499782"
 }
