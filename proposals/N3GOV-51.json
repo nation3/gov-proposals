@@ -1,0 +1,34 @@
+{
+  "content": {
+    "kind": "parameter-change",
+    "calls": [
+      {
+        "chainId": 1,
+        "from": "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
+        "to": "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
+        "method": "addOwnerWithThreshold",
+        "parameters": [
+          "0x39245d4cEf276e857EF2633F73707189052F00Af"
+        ]
+      },
+      {
+        "chainId": 1,
+        "from": "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
+        "to": "0x7fFf737ae9FdDD6E28Fe8B8F0F4dE69Bb8e7a885",
+        "method": "_threshold",
+        "parameters": [
+          4
+        ]
+      }
+    ]
+  },
+  "id": 51,
+  "spec": 2,
+  "votes": [
+    {
+      "passed": true,
+      "uri": "https://vote.nation3.org/#/proposal/0xb368064229bc8ec3fbe5dc8e784b6d325f793ab80d479513e52cb696203fcb15"
+    }
+  ],
+  "discussion": "https://discord.com/channels/690584551239581708/1138750656451199017"
+}
