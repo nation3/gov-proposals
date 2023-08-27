@@ -1,0 +1,20 @@
+{
+  "content": {
+    "kind": "expense",
+    "transfers": [
+      {
+        "chainId": 1,
+        "from": "0xD1EDE41DeB03A23CCB325312DE8e5BF240881f53",
+        "token": "0x333A4823466879eeF910A04D473505da62142069",
+        "amount": 96,
+        "recipient": "0xAFb66CD885A5DD6EFb0B2b6cdFbDaC9A30c0E2c5"
+      }
+    ]
+  },
+  "id": 52,
+  "spec": 2,
+  "votes": [
+    {}
+  ],
+  "discussion": "https://discord.com/channels/690584551239581708/1144975330570936451"
+}
