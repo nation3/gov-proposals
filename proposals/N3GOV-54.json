@@ -1,0 +1,48 @@
+{
+  "content": {
+    "kind": "expense",
+    "transfers": [
+      {
+        "chainId": 1,
+        "from": "0x336252602b3a8a0be336ed942228305173e8082b",
+        "recipient": "0x540391ebe033284ae8ee7ce75024dd5e6d8fc613",
+        "token": "0x333A4823466879eeF910A04D473505da62142069",
+        "amount": 8
+      },
+      {
+        "chainId": 1,
+        "from": "0x336252602b3a8a0be336ed942228305173e8082b",
+        "recipient": "0xeda11b9702285f0a9d82cef53de7a04085d4cbcc",
+        "amount": 2,
+        "token": "0x333A4823466879eeF910A04D473505da62142069"
+      },
+      {
+        "chainId": 1,
+        "from": "0x336252602b3a8a0be336ed942228305173e8082b",
+        "recipient": "0x91b4f05f8fef953590648d6622959d9c698d4b39",
+        "token": "0x333A4823466879eeF910A04D473505da62142069",
+        "amount": 2
+      },
+      {
+        "chainId": 1,
+        "from": "0x336252602b3a8a0be336ed942228305173e8082b",
+        "recipient": "0x7eB51dd0AB4240681343dFf061f203C7DcfE7082",
+        "token": "0x333A4823466879eeF910A04D473505da62142069",
+        "amount": 4
+      },
+      {
+        "chainId": 1,
+        "from": "0x336252602b3a8a0be336ed942228305173e8082b",
+        "recipient": "0x7eB51dd0AB4240681343dFf061f203C7DcfE7082",
+        "token": "0x333A4823466879eeF910A04D473505da62142069",
+        "amount": 2
+      }
+    ]
+  },
+  "id": 1337,
+  "spec": 2,
+  "votes": [
+    {}
+  ],
+  "discussion": "https://discord.com/channels/690584551239581708/1150657635893399553/1150657635893399553"
+}
