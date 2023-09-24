@@ -1,0 +1,23 @@
+{
+  "content": {
+    "kind": "expense",
+    "transfers": [
+      {
+        "chainId": 1,
+        "from": "0xD1EDE41DeB03A23CCB325312DE8e5BF240881f53",
+        "token": "0x333A4823466879eeF910A04D473505da62142069",
+        "amount": 96,
+        "recipient": "0xAFb66CD885A5DD6EFb0B2b6cdFbDaC9A30c0E2c5"
+      }
+    ]
+  },
+  "id": 52,
+  "spec": 2,
+  "votes": [
+    {
+      "passed": true,
+      "uri": "https://vote.nation3.org/#/proposal/0x24a557a2dbd4680ff12f5ff194c1afbe040468858b319c688da796c9b6d79c9d"
+    }
+  ],
+  "discussion": "https://discord.com/channels/690584551239581708/1144975330570936451"
+}
