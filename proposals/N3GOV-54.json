@@ -43,6 +43,10 @@
   "spec": 2,
   "votes": [
     {}
+    {
+      "passed": true,
+      "uri": "https://snapshot.org/#/nation3.eth/proposal/0x89384df742ddf0fc89b937a5b2928009befe159f7b4b585cfba75f91cb5c53e2"
+    }
   ],
   "discussion": "https://discord.com/channels/690584551239581708/1150657635893399553"
 }
