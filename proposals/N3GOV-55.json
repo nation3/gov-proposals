@@ -5,6 +5,11 @@
   },
   "id": 55,
   "spec": 2,
-  "votes": [],
+  "votes": [
+    {
+      "passed": true,
+      "uri": "https://snapshot.org/#/nation3.eth/proposal/0xad19c37d1f0e72e8e99492fab801da22ca88dde729c0f7e2f942348235d2e842"
+    }
+  ],
   "discussion": "https://discord.com/channels/690584551239581708/1152961613700268082"
 }
